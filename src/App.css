@@ -1,0 +1,262 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+#call-to-action {
+  background: linear-gradient(rgba(23, 72, 115, 0.8), rgba(23, 72, 115, 0.8)) fixed center center;
+  background-size: cover;
+  color:white;
+  padding: 60px 0;
+}
+
+.cta-btn,.cta-btn {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+  background: #174873;
+}
+
+#call-to-action .cta-btn:hover,.cta-btn:hover {
+  background: #174873;
+  border: 2px solid #174873;
+  color:white;
+  text-decoration: none;
+}
+
+.blog_img{
+  width:100%;
+}
+.logo_img{
+  width:100px;
+}
+
+.img_div{
+  width:100%;
+  height:150px;
+  overflow: hidden;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+.input{width:100%}
+.dropdown-item .active{color:#336699;background-color:white}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+.mandatory{color:red}
+.App {
+  text-align: center;
+}
+.category{
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    margin:5px;
+}
+
+footer{background-image: url(./bg3.jpg);opacity:0.7;
+  background-repeat: no-repeat, repeat;
+  background-position: center; 
+  background-size: cover;  
+}
+.search
+{background-image: url(./bg2.jpg);opacity:0.7;
+  background-repeat: no-repeat, repeat;
+  background-position: center; 
+  background-size: cover;
+}
+.search{min-height:300px;width:100%;padding:10px;background-color: rgba(0,0,0,.03);}
+
+.cover {
+  position: relative;
+  z-index: 1;
+}
+
+.cover .bgi {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(./bg2.jpg) center center;
+  opacity: .4;
+  width: 100%;
+}
+
+
+.cat{min-height:500px;padding:10px;vertical-align: middle;}
+.logo{width:250px}
+.widget{width:240px;margin: 5px}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+.text{color:white}
+
+.banner{width:100%}
+.nav-link{color:white}
+pre{    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;}
+.bg-itrain{background: #cd5c5c!important}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.carousel .carousel-inner img {
+  width: 100%;
+  object-fit: scale-down;
+  overflow: scroll;
+}
+
+.bg-body{background: #98AFC7}
+
+.bd-body{border:1px solid #98AFC7;color:#98AFC7}
+.btn-body{background-color:#98AFC7  ;color:white}
+.strike{text-decoration: line-through;}
+.bg-carousel{background-color: white!important}
+.bd-purple{border:1px solid #563d7c;color:#563d7c}
+.btn-purple{background-color:#563d7c;color:white}
+
+.bd-darkgrey{border:1px solid #38ACEC;color:#384d54}
+.btn-darkgrey{background-color:#384d54!important;color:white!important}
+
+.dark-text{color:#336699}
+.bd-darkblue{border:1px solid #336699;color:#2a73cc}
+.btn-darkblue {background-color: #336699!important;color: white!important;}
+.btn-darkblue:hover{background-color:white  ;color:#336699;border:1px solid #336699}
+.body{min-height:400px}
+.bd-blue{border:1px solid #3399ff;color:#3399ff}
+.btn-blue{background-color:#3399ff  ;color:white}
+
+.bd-contrast{border:1px solid #336699;color:#336699}
+.btn-contrast{background-color:white;color:#336699}
+
+.bg-contrast{background: white;color:#336699;border:1px solid #336699}
+
+.bg-purple{background: #563d7c}
+
+.bg-lb{background: #ffffff}
+.bg-nb{background: none!important}
+
+.fa_icon{font-size: 30px}
+.loading{height: 500px}
+
+.bg-lyellow{background: #FFD07B}
+footer{border-top:1px solid white}
+
+.hash{color:#3399ff;font-weight: bold}
+.text-left{text-align: left;}
+.bg-blue{background: #3399ff}
+.bg-site{background-color:rgba(0,0,0,.03)}
+.bg-darkblue{background: rgba(23, 72, 115, 0.8)!important;color:white}
+.bg-lgrey{background: #FEFEFE!important;color:white}
+
+.bg-yellow{background: #ffcc00}
+
+.bg-orange{background: #cc6633}
+.bg-red{background: #d83b01}
+
+.bg-darkgrey{background: #384d54}
+
+.btn,.hand,.card-header{ cursor: pointer; }
+
+.wrapperClassName {border:1px solid lightgrey}
+.link,
+a,a label {
+    cursor: pointer;
+}
+/* a:hover{text-decoration:none} */
+
+.hstrike:hover{text-decoration: line-through !important}
+/* .active{color: #fff;background-color: #286090;border-color: #204d74;} */
+
+.nb_search{width:500px}
+
+
+.et_pb_blurb_content {
+  position: relative;
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h4.et_pb_module_header
+{
+  color: #007c9d!important;
+  text-align: center;
+}
+
+#slider2{border:1px solid rgba(0,0,0,.03)}
+.full{width:100%}
+.btn-outline-darkblue {
+  color: #007c9d;
+  background-color: white;
+  border-color: #007c9d 1px solid;
+}
+.white{background-color:white}
+.bg
+{
+background-image: linear-gradient(to right,#0072d2,#00b6c3);
+}
+
+.bg-skyblue{background-color: #00b6c3;}
+
+
+.about{min-height:204px}
+
+
+
+.card{
+box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+.msg{min-height:500px}
+
+.position-body{min-height:208px}
+.courseName{font-weight:bold;font-size: 15px;}
+.courseLogo{height:150px}
+
+.courseBody{max-height:160px}
